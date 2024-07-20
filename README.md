@@ -33,19 +33,12 @@ cd crewai-boilerplate
 
 You will be prompted to enter the CrewAI project name. Provide a suitable name and press Enter.
 
+### Remove initialize.py:
+
 ## What the Script Does
 
 **Step 1**: Running initialize.py Prompts you to enter the project name.
 
-**Step 2**: Formats the project name into `class_name` and `folder_name` variables.
+**Step 2**: Modifies pyproject.toml, crew.py and main.py
 
-- `class_name`: Capitalizes each word and removes spaces and hyphens.
-- `folder_name`: Converts the name to lowercase, replacing spaces and hyphens with underscores.
-
-**Step 3**: Replaces placeholders in all files within the current directory:
-
-- `{{crew_name}}` is replaced with the formatted `class_name`.
-- `{{name}}` is replaced with the original project name.
-- `{{folder_name}}` is replaced with the formatted `folder_name`.
-
-**Step 4**: Renames the current directory to match the `folder_name`.
+**Step 3**: Renames project_folder and src/project_folder to your project name.
