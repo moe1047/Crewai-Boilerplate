@@ -53,7 +53,7 @@ def initialize(name):
 
 if __name__ == "__main__":
     try:
-        # Step 6: Prompt user for CrewAI project name
+        # Step 6: Prompt user for CrewAI project name, description, Author and Email
         project_name = input("Enter the CrewAI project name: ")
 
         # Step 7: Pass the name to the initialize function and run it
