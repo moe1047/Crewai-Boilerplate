@@ -6,7 +6,7 @@ from crewai.project import CrewBase, agent, crew, task
 
 # Check our tools documentations for more information on how to use them
 # from crewai_tools import SerperDevTool
-
+ 
 @CrewBase
 class {{crew_name}}Crew():
 	"""{{crew_name}} crew"""
